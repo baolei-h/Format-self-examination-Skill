@@ -1,3 +1,4 @@
 interface:
   display_name: "生物活性表面专著自查"
-  short_description: "按《生物活性表面可控构建技术》统一规范审查章节与交稿包"
+  short_description: "自动定位章节并生成完整自查报告"
+  default_prompt: "请调用 bioactive-surface-book-auditor 完成第X章自查。自动定位当前工作区稿件，执行完整检查和AI全文复核并生成MD与Word报告；默认不改原稿。"

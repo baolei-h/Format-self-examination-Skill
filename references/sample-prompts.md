@@ -1,4 +1,25 @@
-# 调用示例
+# 推荐调用方式
+
+## 完整自查（默认只读）
+
+`请调用 bioactive-surface-book-auditor 完成第5章自查`
+
+## 自查并修复（生成副本，不覆盖原稿）
+
+`请调用 bioactive-surface-book-auditor 完成第5章自查并修复`
+
+## 专项检查
+
+- 参考文献：`请调用 bioactive-surface-book-auditor 检查第5章参考文献`
+- 图表：`请调用 bioactive-surface-book-auditor 检查第5章图表`
+- 格式：`请调用 bioactive-surface-book-auditor 检查第5章格式`
+- 近年研究：`请调用 bioactive-surface-book-auditor 检查第5章近5–10年研究进展`
+- 专著逻辑：`请调用 bioactive-surface-book-auditor 检查第5章专著写作逻辑`
+- 交稿验收：`请调用 bioactive-surface-book-auditor 完成第5章交稿前验收`
+
+普通作者无需手动运行 Python，无需填写文件路径或输出参数。若只给章节号/标题，Skill 自动搜索 workspace；若稿件已上传，直接使用上传文件。默认完整自查且不修改原稿；仅明确要求修复时生成新修订副本。
+
+# 其他调用示例
 
 ## Codex / WorkBuddy / 豆包工作模式
 
